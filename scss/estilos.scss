@@ -1,0 +1,162 @@
+
+@import "colores";
+@import "contacto";
+
+/********************
+RESETEO CSS
+*********************/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;        
+}
+
+/********************
+BARRA DE NAVEGACIÓN
+*********************/
+.navbar{
+    background-image: linear-gradient(to right, $azulBarra, $azulMarinoBarra);        
+
+    ul li a{    
+        font-size: 1rem;
+        transition: all 0.3s linear;
+        border-radius: 0.3rem;
+
+            &:hover{
+                background: $grisBarra;
+            }
+    }
+
+    ul li ul{
+        background: $azulBarra;
+    }   
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: $blanco;
+}
+
+.dropdown-item{
+    color: $blanco;
+}
+
+/********************
+TÍTULOS ANIMADOS
+*********************/
+.main__tituloSeccion{    
+    font-size: 2.2rem;    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+.main__indexTexto{
+    text-align: justify;
+}
+
+/********************
+MAIN
+*********************/
+.main{
+padding-top: 5rem;
+}
+
+.main__tituloSw{    
+    font-size: 2.2rem;    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.main--Botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.lineaTitulo{
+    font-size: 1.5rem;
+    color: $blanco;  
+    font-weight: bold;
+}
+
+/********************
+ATRIBUITOS h1
+*********************/
+h1{
+    font-size: 1.5rem;
+    color: $azulMarino;
+}
+
+/********************
+ATRIBUITOS h2
+*********************/
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    color: $azulBrillante;
+}
+
+/********************
+PÁRRAFOS
+*********************/
+p{
+    color: $azulAcero;    
+    font-size: 1.25rem;
+}
+
+/********************
+FOOTER
+*********************/
+.footer{
+    background: $azulAcero;
+    color: $blanco;
+
+    h2{
+        color: $blanco;
+    }
+    
+    .ligas{
+        ul{
+            list-style-type: none;
+        }
+
+        li a{
+        color: $blanco;
+        transition: color .2s;
+
+            &:hover{
+                text-decoration:none;
+                color:$azulBarra;
+                }
+        }
+    }  
+
+    .sobreNosotros{
+        i{
+            font-size: 1.5rem;
+        }
+
+        a{
+            color: $blanco;
+            transition: color .2s;
+            
+            &:hover{
+                color: $azulBarra;
+            }
+        }
+    } 
+
+    .copyright p{
+        border-top:1px solid $grisBarra;
+    } 
+}
+
+
+
+
+
+

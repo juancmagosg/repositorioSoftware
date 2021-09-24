@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/* Blanco: #fff */
+/* Gris Barra: #959ba0 */
+/* Azul Barra: #0575E6 */
+/* Azul marino: #273469; */
+/* Azul acero: #254978; */
+/* Azul brillante: #5A96E6 */
+/********************
+VARIABLES
+*********************/
+/********************
+CONTACTO.HTML
+*********************/
+.bodyContacto {
+  background-image: url(/img/fondocontacto.jpg);
+  background-size: 1550px;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.tituloFormContacto {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #021B79;
+}
+
+.leyendaTitulo, input {
+  font-size: 1.25rem;
+  font-weight: bolder;
+  color: #021B79;
+}
+
+/********************
+RESETEO CSS
+*********************/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/********************
+BARRA DE NAVEGACIÓN
+*********************/
+.navbar {
+  background-image: linear-gradient(to right, #0575E6, #021B79);
+}
+
+.navbar ul li a {
+  font-size: 1rem;
+  transition: all 0.3s linear;
+  border-radius: 0.3rem;
+}
+
+.navbar ul li a:hover {
+  background: #959ba0;
+}
+
+.navbar ul li ul {
+  background: #0575E6;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+/********************
+TÍTULOS ANIMADOS
+*********************/
+.main__tituloSeccion {
+  font-size: 2.2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  animation: bounce;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s;
+  /* don't forget to set a duration! */
+}
+
+.main__indexTexto {
+  text-align: justify;
+}
+
+/********************
+MAIN
+*********************/
+.main {
+  padding-top: 5rem;
+}
+
+.main__tituloSw {
+  font-size: 2.2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.main--Botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.lineaTitulo {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+/********************
+ATRIBUITOS h1
+*********************/
+h1 {
+  font-size: 1.5rem;
+  color: #273469;
+}
+
+/********************
+ATRIBUITOS h2
+*********************/
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  color: #5A96E6;
+}
+
+/********************
+PÁRRAFOS
+*********************/
+p {
+  color: #254978;
+  font-size: 1.25rem;
+}
+
+/********************
+FOOTER
+*********************/
+.footer {
+  background: #254978;
+  color: #fff;
+}
+
+.footer h2 {
+  color: #fff;
+}
+
+.footer .ligas ul {
+  list-style-type: none;
+}
+
+.footer .ligas li a {
+  color: #fff;
+  transition: color .2s;
+}
+
+.footer .ligas li a:hover {
+  text-decoration: none;
+  color: #0575E6;
+}
+
+.footer .sobreNosotros i {
+  font-size: 1.5rem;
+}
+
+.footer .sobreNosotros a {
+  color: #fff;
+  transition: color .2s;
+}
+
+.footer .sobreNosotros a:hover {
+  color: #0575E6;
+}
+
+.footer .copyright p {
+  border-top: 1px solid #959ba0;
+}
+/*# sourceMappingURL=estilos.css.map */

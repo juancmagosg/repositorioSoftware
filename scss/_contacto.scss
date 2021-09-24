@@ -1,0 +1,22 @@
+/********************
+CONTACTO.HTML
+*********************/
+.bodyContacto{
+    background-image: url(/img/fondocontacto.jpg);
+    background-size: 1550px;
+    background-repeat:no-repeat;    
+    background-position:right top;
+}
+
+.tituloFormContacto{
+    font-size: 1.5rem;
+    font-weight: bolder;    
+    color: $azulMarinoBarra;
+}
+
+.leyendaTitulo, input{    
+    font-size: 1.25rem;    
+    font-weight: bolder;
+    color: $azulMarinoBarra;
+}
+
