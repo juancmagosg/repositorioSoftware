@@ -12,7 +12,7 @@ VARIABLES
 CONTACTO.HTML
 *********************/
 .bodyContacto {
-  background-image: url(/img/fondocontacto.jpg);
+  background-image: url(../img/fondocontacto.jpg);
   background-size: 1550px;
   background-repeat: no-repeat;
   background-position: right top;
