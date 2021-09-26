@@ -18,10 +18,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
 
-    <!-- Ajustes del formulario de Contacto -->
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    
+
 
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
@@ -103,19 +101,7 @@
     <!-- Formulario de Contacto 
     <main class="main">
 
-        Breadcrumbs 
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Contacto</li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
-        </div>
+
 
         <div class="container py-4">  
             <h1 class="tituloFormContacto">Contacto</h1> <br>
@@ -148,19 +134,35 @@
             <p></p>   
         </div>-->
 
-    <main class="mainContacto">
+    <main class="main">
+
+        <!-- Breadcrumbs --> 
         <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h1 class="tituloFormContacto">Contacto</h1> <br>
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
                     <div class="well well-sm">
                         <form class="form-horizontal" action="" method="post">
                             <fieldset>
-                                <legend class="text-center">Contacto</legend>
+                                <legend>Llena el siguiente formulario con tus datos</legend>
                     
                                 <!-- Name input-->
                                 <div class="form-group">
-                                    <label class="col-md-3 control-label" for="name">Nombre</label>
-                                    <br>                                    
+                                    <br>                                                                       
+                                    <label class="col-md-3 control-label" for="name">Nombre</label>                                                                     
                                     <div class="col-md-9">
                                         <input id="name" name="name" type="text" placeholder="Tu nombre" class="form-control">
                                     </div>
@@ -168,29 +170,38 @@
                     
                                 <!-- Email input-->
                                 <div class="form-group">
-                                    <label class="col-md-3 control-label" for="email">Correo electrónico</label>
-                                    <br>
+                                    <br>                                                                                                            
+                                    <label class="col-md-3 control-label" for="email">Correo electrónico</label>                                    
                                     <div class="col-md-9">
-                                        <input id="email" name="email" type="text" placeholder="Tu correo" class="form-control">
+                                        <input id="email" name="email" type="email" placeholder="Tu correo" class="form-control">                                        
                                     </div>
                                 </div>
                     
                                 <!-- Message body -->
                                 <div class="form-group">
+                                    <br>                                                                       
                                     <label class="col-md-3 control-label" for="message">Mensaje</label>
                                     <br>
                                     <div class="col-md-9">
-                                        <textarea class="form-control" id="message" name="message" placeholder="Escribe tu mensaje aquí" rows="5"></textarea>
+                                        <textarea class="form-control" id="message" name="message" placeholder="Escribe tu mensaje aquí" rows="7"></textarea>
                                     </div>
                                 </div>
                                 <br>
-                                <!-- Form actions -->
-                                <div class="form-group">
-                                    <div class="col-md-12 text-right">
-                                        <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
-                                    </div>
-                                    <div class="col-md-12 text-right">
-                                        <button type="resset" class="btn btn-primary btn-lg">Borrar</button>
+                                <br>
+
+                                <!-- Form actions -->                                
+                                <div class="row">
+                                    <div class="form-group">
+                                        <div class="col-md-12 text-right">
+                                            <button type="submit" class="btn btn-primary btn-lg">Enviar</button>                                        
+                                            
+                                            <button type="reset" class="btn btn-primary btn-lg">Borrar</button>
+                                            <br>
+                                            <br>
+                                        </div>                       
+<!--                                         <div class="col-md-12 text-right">
+                                            <button type="reset" class="btn btn-primary btn-lg">Borrar</button>
+                                        </div> -->
                                     </div>
                                 </div>
                             </fieldset>
