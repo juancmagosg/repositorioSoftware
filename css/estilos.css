@@ -22,9 +22,12 @@ CONTACTO.HTML
   font-weight: bolder;
   color: #021B79; }
 
-.leyendaTitulo, input {
+legend {
+  font-size: 1.5rem;
+  color: #021B79; }
+
+label {
   font-size: 1.25rem;
-  font-weight: bolder;
   color: #021B79; }
 
 /********************
